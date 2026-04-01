@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Per3Student\\Documents\\ConsoleScripts\\GavilanesCodingChallengeP3\\GavilanesCodingChallengeP3.csproj",
+      "projectUniqueName": "C:\\Users\\Per3Student\\Documents\\ScriptChallenges\\GitHub\\CodingAssignmentP3\\GavilanesCodingChallengeP3\\GavilanesCodingChallengeP3.csproj",
       "projectName": "GavilanesCodingChallengeP3",
-      "projectPath": "C:\\Users\\Per3Student\\Documents\\ConsoleScripts\\GavilanesCodingChallengeP3\\GavilanesCodingChallengeP3.csproj",
+      "projectPath": "C:\\Users\\Per3Student\\Documents\\ScriptChallenges\\GitHub\\CodingAssignmentP3\\GavilanesCodingChallengeP3\\GavilanesCodingChallengeP3.csproj",
       "packagesPath": "C:\\Users\\Per3Student\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Per3Student\\Documents\\ConsoleScripts\\GavilanesCodingChallengeP3\\obj\\",
+      "outputPath": "C:\\Users\\Per3Student\\Documents\\ScriptChallenges\\GitHub\\CodingAssignmentP3\\GavilanesCodingChallengeP3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
