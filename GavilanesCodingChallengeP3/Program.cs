@@ -35,7 +35,9 @@ class Challenges
             "\nChallenge #23 (Absolute Addition)" +
             "\nChallenge #24 (Calculating Exponents)" +
             "\nChallenge #25 (Multiply By Length)" +
-            "\nChallenge #27 (Is Shuffle Still On?)");
+            "\nChallenge #26 (Hamming Distance)" +
+            "\nChallenge #27 (Is Shuffle Still On?)" +
+            "\nChallenge #28 (What's The Smallest Number?)");
 
         Console.WriteLine("\n\nWhen prompted you can choose which function you want to use by typing the name of the function " +
             "(please do not include the challenge and the number)!\n");
@@ -56,7 +58,7 @@ class Challenges
                 MinutetoSeconds();
                 break;
             }
-            if(response == "Increasing A Number By One")
+            if (response == "Increasing A Number By One")
             {
                 IncreasingANumberByOne();
                 break;
@@ -96,84 +98,94 @@ class Challenges
                 GiveMeSomething();
                 break;
             }
-            if(response == "It's Opposite Day!")
+            if (response == "It's Opposite Day!")
             {
                 Opposite();
                 break;
             }
-            if(response == "Converting Hours")
+            if (response == "Converting Hours")
             {
                 howManySeconds();
                 break;
             }
-            if(response == "Internal Angles of a Polygon")
+            if (response == "Internal Angles of a Polygon")
             {
                 SumPolygon();
                 break;
             }
-            if(response == "Include 'Edabit'")
+            if (response == "Include 'Edabit'")
             {
                 nameString();
                 break;
             }
-            if(response == "Is It Really 'True?'")
+            if (response == "Is It Really 'True?'")
             {
                 Truthful();
                 break;
             }
-            if(response == "Basketball Points")
+            if (response == "Basketball Points")
             {
                 BasketballPointers();
                 break;
             }
-            if(response == "Perimeter of a Rectangle")
+            if (response == "Perimeter of a Rectangle")
             {
                 Perimeter();
                 break;
             }
-            if(response == "Hello There!")
+            if (response == "Hello There!")
             {
                 HelloName();
                 break;
             }
-            if(response == "How Many Legs?")
+            if (response == "How Many Legs?")
             {
                 AnimalLegs();
                 break;
             }
-            if(response == "Football Points")
+            if (response == "Football Points")
             {
                 FootballPoints();
                 break;
             }
-            if(response == "What Month Is It?")
+            if (response == "What Month Is It?")
             {
                 Months();
                 break;
             }
-            if(response == "Absolute Addition")
+            if (response == "Absolute Addition")
             {
                 AbsoluteValue();
                 break;
             }
-            if(response == "Calculating Exponents")
+            if (response == "Calculating Exponents")
             {
                 Exponents();
                 break;
             }
-            if(response == "Min & Max Values")
+            if (response == "Min & Max Values")
             {
                 MinMaxValue();
                 break;
             }
-            if(response == "Multiply By Length")
+            if (response == "Multiply By Length")
             {
                 MultiplyByLength();
                 break;
             }
-            if(response == "Is Shuffle Still On?")
+            if (response == "Is Shuffle Still On?")
             {
                 BackwardName();
+                break;
+            }
+            if (response == "Hamming Distance")
+            {
+                HammingDistance();
+                break;
+            }
+            if (response == "What's The Smallest Number?")
+            {
+                SmallNumber();
                 break;
             }
 
@@ -186,16 +198,16 @@ class Challenges
             else
             {
                 Console.WriteLine("\nOops. Sorry, something went wrong. I don't understand what you want to do. Please try again...\n");
-            }  
+            }
         }
     }
-    
+
     public static void SumofNumbers()
     {
         //The code below is for the sum of numbers
-    Console.WriteLine("\nToday we are going to write a numer sum function. " +
-            "You will be able \nto add numbers together with whichever numbers you choose for the function.\n " +
-            "\nPlease input your first number for the sum.\n");
+        Console.WriteLine("\nToday we are going to write a numer sum function. " +
+                "You will be able \nto add numbers together with whichever numbers you choose for the function.\n " +
+                "\nPlease input your first number for the sum.\n");
 
         var number1 = Console.ReadLine();
         int number1Int = int.Parse(number1);
@@ -209,7 +221,7 @@ class Challenges
 
         Console.WriteLine("\nOk, the sum of the number: " + number1Int + ", and the number: " + number2Int + ", is equal to: " + Sum(number1Int, number2Int) + "!\n");
     }
-    
+
     public static void MinutetoSeconds()
     {
         //Below is the code for conversion of time (minutes to seconds)
@@ -222,7 +234,7 @@ class Challenges
 
         Console.WriteLine("\n" + number3 + " minute(s) converts to " + Convert(number3Int) + " seconds!\n");
     }
-        
+
     public static void IncreasingANumberByOne()
     {
         //Below is the code for the adding of +1 to numbers
@@ -236,7 +248,7 @@ class Challenges
         Console.WriteLine("\nOk, " + number4Int + " will now be increased by an increment of +1.\n ... \n");
         Console.WriteLine("The number has now been increased to " + PlusOne(number4Int) + "!\n");
     }
-        
+
     public static void CalculationofCircutPower()
     {
         //Below is the code for the multiplication between Current & Voltage
@@ -292,10 +304,10 @@ class Challenges
         Console.WriteLine("\nGot it! So, the base number of " + number8 + ", and the height number of " + number9 + ", will now be calculated for the area of the triangle. \n\n ... \n");
         Console.WriteLine("The area of the triangle from the base and height is " + triArea(number8Float, number9Float) + "!");
     }
-    
+
     public static void NumberLessthanZero()
     {
-         //Below is the code for a function that will determine if the number you chose was less than or equal to 0
+        //Below is the code for a function that will determine if the number you chose was less than or equal to 0
 
         Console.WriteLine("\n\nThis is a function that will determine if the number you chose is either less than or equal to zero! " +
             "If the number is less than or equal to zero, the function will show it as 'true,' but if it is bigger than zero, it will show it as 'false.'");
@@ -307,7 +319,7 @@ class Challenges
 
         Console.WriteLine("\nOk! The number you chose is " + number10 + ". And the function has determined that the number is " + lessThanOrEqualToZero(number10Float) + ".");
     }
-       
+
     public static void AddedNumbersAreLessthanOneHundred()
     {
         //Below is the code for a function that determines if the number you chose to add together is less than 100
@@ -331,7 +343,7 @@ class Challenges
 
         Console.WriteLine("\n\nThe function has determined that the addition number is " + lessThan100(number11Int, number12Int) + ".");
     }
-       
+
     public static void NumbersEqualtoEachOther()
     {
         //Below is the code for a function that checks if two integers are equal to each other
@@ -398,8 +410,8 @@ class Challenges
         Console.WriteLine("\n\nThis function will help you determine the sum of the internal angles of a polygon from the amount of sides you input for the polygon you want. (Triangle = 3, Square = 4, etc.)");
         Console.WriteLine("\nThen, once you input the amount of sides, the function will run the amount of sides of the polygon through an equation that will result the sum of the internal angels of the polygon" +
             "in degrees. Please remember the shape/polygon must have more than 3 sides or it will not work!");
-        Console.WriteLine("\nPlease input the amount of sides your polygon has, so it can be calculated.\n");      
-        
+        Console.WriteLine("\nPlease input the amount of sides your polygon has, so it can be calculated.\n");
+
         while (true)
         {
             var number16 = Console.ReadLine();
@@ -428,7 +440,7 @@ class Challenges
 
         Console.WriteLine("\nGot it! So the name you chose was " + stringName + ". The new name for the one you chose, (after adding 'Edabit'), is " + Name(stringName) + ".");
     }
-    
+
 
     public static void Truthful()
     {
@@ -568,7 +580,7 @@ class Challenges
         int[] nos = new int[5];
 
         int numberIndex = 0;
-        
+
         int iMax = 0;
         int iMin = int.MaxValue;
 
@@ -579,7 +591,7 @@ class Challenges
             numberIndex += 1;
         }
 
-        for(int i = 0; i < nos.Length; i++)
+        for (int i = 0; i < nos.Length; i++)
         {
             if (nos[i] > iMax) iMax = nos[i];
             if (nos[i] < iMin) iMin = nos[i];
@@ -594,7 +606,7 @@ class Challenges
     {
         Console.WriteLine("\nThis function will take 5 numbers from your input, either negative or positive, and return the sum of all the numbers in an absolute value, (which means they are all positive). " +
             "When prompted, please choose 5 numbers you want.");
-       Console.WriteLine("\nPlease choose 5 numbers you want for addition.\n");
+        Console.WriteLine("\nPlease choose 5 numbers you want for addition.\n");
 
         int[] numberArray = new int[5];
 
@@ -646,7 +658,7 @@ class Challenges
         string[] inputArrayStrings = Console.ReadLine().Split(' ');
 
         int[] numbers = new int[inputArrayStrings.Length];
-        
+
         for (int i = 0; i < inputArrayStrings.Length; i++)
         {
             if (int.TryParse(inputArrayStrings[i], out int numValue))
@@ -663,7 +675,7 @@ class Challenges
         Console.WriteLine("\nGot it! Now please choose the multiplier for the numbers chosen.\n");
 
         string multiplierInput = Console.ReadLine();
-        
+
         if (!int.TryParse(multiplierInput, out int multiplier))
         {
             Console.WriteLine("Sorry this isn't a good multiplier input. Exiting.");
@@ -686,7 +698,7 @@ class Challenges
 
     }
 
-    public static void  BackwardName()
+    public static void BackwardName()
     {
         Console.WriteLine("\nThis function will shuffle your first and last name when you input them into the function. When prompted, please type your first name, then your last name.");
         Console.WriteLine("\nPlease type your first name.\n");
@@ -702,7 +714,44 @@ class Challenges
         Console.WriteLine("\nOk! Now the function will shuffle your first and last name.");
         Console.WriteLine("\nYour shuffled name is " + Name(nameShuffle, lastNameShuffle) + ".");
     }
-    
+
+    public static void HammingDistance()
+    {
+        Console.WriteLine("\nToday, this function will determine the amount of misplaced letters there are from your input of alphabetical letters in any order, " +
+            "and return how many are out of place from where they're supposed to be in the alphabet (this is called 'hamming distance.'). When prompted, first input the correct alphabetical order " +
+            "of the letters you want, then enter the mixed version you want after.");
+        Console.WriteLine("\nPlease enter the alphabetical order of the letters you want (the length of the letters you choose first is how long the second input of letters should be too).\n");
+
+        var hammDis1 = Console.ReadLine();
+        string distance1 = string.Format(hammDis1);
+
+        Console.WriteLine("\nOk! Now please enter the letters you want mixed from the alphabetical order above. (Remember to keep it the same length as the input above)\n");
+
+        var hammDis2 = Console.ReadLine();
+        string distance2 = string.Format(hammDis2);
+
+        Console.WriteLine("\nOk! Now the function will determine the 'distance' of the letters in the alphabet with what you have inputted.");
+        Console.WriteLine("\nThe function has determined that the 'hamming distance' of the letters you have inputted is " + Distance(hammDis1, hammDis2) + ".");
+    }
+
+    public static void SmallNumber()
+    {
+        Console.WriteLine("\nThis function will take two numbers from your input and determine which one is the smallest from the two, and return the smallest value. " +
+            "When prompted, please have the numbers you want ready.");
+        Console.WriteLine("\nPlease enter the first number.\n");
+
+        var number28 = Console.ReadLine();
+        int number28Int = int.Parse(number28);
+
+        Console.WriteLine("\nOk! Now please enter the second number.\n");
+
+        var number29 = Console.ReadLine();
+        int number29Int = int.Parse(number29);
+
+        Console.WriteLine("\nGot it! Now the function will determine which of the two numbers is the smallest.");
+        Console.WriteLine("\nThe function has determined that the smallest number is " + Small(number28Int, number29Int) + ".");
+    }
+
     //Below is code for return values
     public static int Sum(int a, int b)
     {
@@ -773,7 +822,7 @@ class Challenges
 
     public static float HoursSeconds(float a)
     {
-        return a * (60)*60;
+        return a * (60) * 60;
     }
 
     public static int Polygon(int a)
@@ -788,7 +837,7 @@ class Challenges
 
     public static bool And(bool a, bool b)
     {
-        if(a == false)
+        if (a == false)
         {
             return false;
         }
@@ -829,7 +878,7 @@ class Challenges
 
     public static string MonthName(int a)
     {
-        switch(a)
+        switch (a)
         {
             case 1: return "January";
 
@@ -867,6 +916,20 @@ class Challenges
     public static string Name(string a, string b)
     {
         return b + " " + a;
+    }
+
+    public static int Distance(string str1, string str2)
+    {
+        if (str1.Length != str2.Length)
+        {
+            return -1;
+        }
+        return str1.Zip(str2, (ch1, ch2) => new { ch1, ch2 }).Where(pair => pair.ch1 != pair.ch2).Count();
+    }
+
+    public static int Small(int a, int b)
+    {
+        return Math.Min(a, b);
     }
 }
 
