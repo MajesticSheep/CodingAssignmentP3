@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GavilanesCodingChallengeP3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe76818a5b6c87554e6aa034d4b1a215f886b7da")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61d90c910e0c3c82e99111f06733a54361be05a6")]
 [assembly: System.Reflection.AssemblyProductAttribute("GavilanesCodingChallengeP3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GavilanesCodingChallengeP3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

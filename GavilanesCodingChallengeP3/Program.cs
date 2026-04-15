@@ -37,7 +37,8 @@ class Challenges
             "\nChallenge #25 (Multiply By Length)" +
             "\nChallenge #26 (Hamming Distance)" +
             "\nChallenge #27 (Is Shuffle Still On?)" +
-            "\nChallenge #28 (What's The Smallest Number?)");
+            "\nChallenge #28 (What's The Smallest Number?)" +
+            "\nChallenge #29 (Factorial Numbers)");
 
         Console.WriteLine("\n\nWhen prompted you can choose which function you want to use by typing the name of the function " +
             "(please do not include the challenge and the number)!\n");
@@ -186,6 +187,11 @@ class Challenges
             if (response == "What's The Smallest Number?")
             {
                 SmallNumber();
+                break;
+            }
+            if (response == "Factorial Numbers")
+            {
+                FactorialNumbers(); 
                 break;
             }
 
@@ -752,6 +758,23 @@ class Challenges
         Console.WriteLine("\nThe function has determined that the smallest number is " + Small(number28Int, number29Int) + ".");
     }
 
+    public static void FactorialNumbers()
+    {
+        Console.WriteLine("\nToday, this fucntion will take any interger number (no negatives) of your choice, and make it a factorial number (ex: 3!). " +
+            "When prompted, please have the number you want to factorially calculate.");
+        Console.WriteLine("\nPlease choose the number you want the function to factorially calculate.\n");
+
+        if (int.TryParse(Console.ReadLine(), out int number) && number >= 0) 
+        {
+            long result = Factorial(number);
+            Console.WriteLine($"\nGot it! The factorial of {number} is: {result}");
+        }
+        else
+        {
+            Console.WriteLine("\nUh oh. The integer you put doesn't seem to work for factorial calculatings. Please enter an integer that isn't negative.");
+        }
+    }
+
     //Below is code for return values
     public static int Sum(int a, int b)
     {
@@ -930,6 +953,22 @@ class Challenges
     public static int Small(int a, int b)
     {
         return Math.Min(a, b);
+    }
+
+    public static long Factorial(int n)
+    {
+        if (n == 0 || n == 1)
+        {
+            return 1;
+        }
+
+        long factorial = 1;
+
+        for (int i = 1; i <= n; i++)
+        {
+            factorial *= i;
+        }
+        return factorial;
     }
 }
 
