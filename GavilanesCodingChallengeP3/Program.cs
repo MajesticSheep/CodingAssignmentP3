@@ -38,7 +38,8 @@ class Challenges
             "\nChallenge #26 (Hamming Distance)" +
             "\nChallenge #27 (Is Shuffle Still On?)" +
             "\nChallenge #28 (What's The Smallest Number?)" +
-            "\nChallenge #29 (Factorial Numbers)");
+            "\nChallenge #29 (Factorial Numbers)" +
+            "\nChallenge #30 (How Many Vowels?)");
 
         Console.WriteLine("\n\nWhen prompted you can choose which function you want to use by typing the name of the function " +
             "(please do not include the challenge and the number)!\n");
@@ -192,6 +193,11 @@ class Challenges
             if (response == "Factorial Numbers")
             {
                 FactorialNumbers(); 
+                break;
+            }
+            if(response == "How Many Vowels?")
+            {
+                Vowels();
                 break;
             }
 
@@ -773,6 +779,29 @@ class Challenges
         {
             Console.WriteLine("\nUh oh. The integer you put doesn't seem to work for factorial calculatings. Please enter an integer that isn't negative.");
         }
+    }
+
+    public static void Vowels()
+    {
+        Console.WriteLine("\nThis function will take any word from user input and count the vowels in the word. The function will then output the amount of vowels to the user. " +
+            "When prompted, please choose the word you want the vowels of it to be counted.");
+        Console.WriteLine("\nPlease type the word you want to count the vowels for.\n");
+
+        int total = 0;
+        var vowels = new HashSet<char> { 'a', 'e', 'i', 'o', 'u' };
+        
+        string sentence = Console.ReadLine().ToLower();
+
+        for (int i = 0; i < sentence.Length; i++)
+        {
+            if (vowels.Contains(sentence[i]))
+            {
+                total++;
+            }
+        }
+
+        Console.WriteLine("\nGot it! The function will now count how many vowels there are in the word.");
+        Console.WriteLine("\nThe total number of vowels in the word is {0}.", total);
     }
 
     //Below is code for return values

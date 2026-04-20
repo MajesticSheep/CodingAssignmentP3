@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Per3Student\\Documents\\ScriptChallenges\\GitHub\\CodingAssignmentP3\\GavilanesCodingChallengeP3\\",
+  "WorkspaceRootPath": "C:\\Users\\719613\\Documents\\CodingChallenges\\GitHub\\CodingAssignmentP3\\GavilanesCodingChallengeP3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5D6E4D80-2847-421B-BAE0-EE1AE749E6E4}|GavilanesCodingChallengeP3.csproj|c:\\users\\per3student\\documents\\scriptchallenges\\github\\codingassignmentp3\\gavilanescodingchallengep3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5D6E4D80-2847-421B-BAE0-EE1AE749E6E4}|GavilanesCodingChallengeP3.csproj|c:\\users\\719613\\documents\\codingchallenges\\github\\codingassignmentp3\\gavilanescodingchallengep3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D6E4D80-2847-421B-BAE0-EE1AE749E6E4}|GavilanesCodingChallengeP3.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Per3Student\\Documents\\ScriptChallenges\\GitHub\\CodingAssignmentP3\\GavilanesCodingChallengeP3\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\719613\\Documents\\CodingChallenges\\GitHub\\CodingAssignmentP3\\GavilanesCodingChallengeP3\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Per3Student\\Documents\\ScriptChallenges\\GitHub\\CodingAssignmentP3\\GavilanesCodingChallengeP3\\Program.cs",
+              "ToolTip": "C:\\Users\\719613\\Documents\\CodingChallenges\\GitHub\\CodingAssignmentP3\\GavilanesCodingChallengeP3\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAKwDAAAAAAAAAAAuwLcDAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAoDAAAAAAAAAAAuwCADAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-09T18:20:45.403Z",
               "EditorCaption": ""
