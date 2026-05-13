@@ -8,23 +8,23 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\719613\\.nuget\\packages\\": {},
+    "C:\\Users\\Per3Student\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\719613\\Documents\\CodingChallenges\\GitHub\\CodingAssignmentP3\\GavilanesCodingChallengeP3\\GavilanesCodingChallengeP3.csproj",
+      "projectUniqueName": "C:\\Users\\Per3Student\\Documents\\ScriptChallenges\\GitHub\\CodingAssignmentP3\\GavilanesCodingChallengeP3\\GavilanesCodingChallengeP3.csproj",
       "projectName": "GavilanesCodingChallengeP3",
-      "projectPath": "C:\\Users\\719613\\Documents\\CodingChallenges\\GitHub\\CodingAssignmentP3\\GavilanesCodingChallengeP3\\GavilanesCodingChallengeP3.csproj",
-      "packagesPath": "C:\\Users\\719613\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\719613\\Documents\\CodingChallenges\\GitHub\\CodingAssignmentP3\\GavilanesCodingChallengeP3\\obj\\",
+      "projectPath": "C:\\Users\\Per3Student\\Documents\\ScriptChallenges\\GitHub\\CodingAssignmentP3\\GavilanesCodingChallengeP3\\GavilanesCodingChallengeP3.csproj",
+      "packagesPath": "C:\\Users\\Per3Student\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Per3Student\\Documents\\ScriptChallenges\\GitHub\\CodingAssignmentP3\\GavilanesCodingChallengeP3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\719613\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Per3Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -72,7 +72,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
